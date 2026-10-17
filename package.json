@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Merge cycling and heart-rate TCX activities into a Garmin FIT indoor-cycling activity.",
   "scripts": {
+    "concatenate-tcx": "python3 concatenate-tcx.py",
     "merge-fit": "node merge-tcx-to-fit.js",
     "test": "node --test"
   },
